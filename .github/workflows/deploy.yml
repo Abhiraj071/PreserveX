@@ -1,3 +1,4 @@
+# Workflow to automatically build and deploy Vite frontend to GitHub Pages
 name: Deploy Frontend to GitHub Pages
 
 on:
