@@ -35,7 +35,7 @@ logger = logging.getLogger(__name__)
 app = FastAPI(
     title=settings.PROJECT_NAME,
     version=settings.VERSION,
-    description="SIH26236: AI-Based Intelligent Food Packaging Decision-Support System"
+    description="PreserveX: AI-Based Intelligent Food Packaging Decision-Support System"
 )
 
 # CORS Middleware
@@ -63,7 +63,7 @@ def startup_event():
 def health_check():
     return {
         "status": "healthy",
-        "project": "SIH26236 - Food Packaging AI Decision Support",
+        "project": "PreserveX - Food Packaging AI Decision Support",
         "version": settings.VERSION
     }
 
@@ -121,7 +121,7 @@ async def data_sources_health():
             },
             {
                 "name": "PackAI Packaging Knowledge Base",
-                "version": "Empirical SIH26236",
+                "version": "Empirical Standard Matrix",
                 "role": "Material barrier engineering (OTR, WVTR, seal, cost, eco)",
                 "status": "Internal (Deterministic & Secure)",
                 "active_fallback": "Strictly Internal & Defensible"

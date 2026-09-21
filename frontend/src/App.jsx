@@ -217,7 +217,7 @@ export default function App() {
               PACK<span className="text-blue-600">AI</span>
             </span>
             <span className="text-slate-300">&bull;</span>
-            <span className="text-slate-600">Intelligent Food Packaging Decision Support (SIH26236)</span>
+            <span className="text-slate-600">Intelligent Food Packaging Decision Support</span>
           </div>
           <div className="text-[11px] text-slate-400">
             Data-driven barrier engineering &bull; Shelf-life prediction &bull; FSSAI compliance

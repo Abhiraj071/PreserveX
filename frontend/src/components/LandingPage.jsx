@@ -146,7 +146,7 @@ export default function LandingPage({ onStartRecommender, onOpenSimulator, onOpe
               <div className="relative z-10 space-y-4">
                 <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-white/90 border border-emerald-300 text-emerald-900 text-xs font-semibold shadow-2xs">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                  <span>SIH26236 Food Packaging Decision Support</span>
+                  <span>Intelligent Food Packaging Decision Support</span>
                 </div>
 
                 <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-snug">

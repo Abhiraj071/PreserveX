@@ -100,7 +100,7 @@ class ExternalFoodAPIService:
         # Target fields requested explicitly for optimal performance
         fields = "code,product_name,generic_name,brands,categories,ingredients_text,allergens_tags,nutriments,packaging,image_url,image_front_url"
         v3_url = f"{settings.OPEN_FOOD_FACTS_V3_URL}/product/{clean_code}.json?fields={fields}"
-        headers = {"User-Agent": "PackAI-SIH26236-PackagingEngine/1.1 (sih@packai.org)"}
+        headers = {"User-Agent": "PreserveX-PackagingEngine/1.1 (contact@preservex.org)"}
 
         try:
             async with httpx.AsyncClient(timeout=self.timeout) as client:
@@ -182,7 +182,7 @@ class ExternalFoodAPIService:
         # 3. Open Food Facts Search API (Triggered on search submit, not keystroke)
         try:
             search_url = f"https://world.openfoodfacts.org/cgi/search.pl?search_terms={clean_q}&search_simple=1&action=process&json=1&page_size=2"
-            headers = {"User-Agent": "PackAI-SIH26236-PackagingEngine/1.1"}
+            headers = {"User-Agent": "PreserveX-PackagingEngine/1.1"}
             async with httpx.AsyncClient(timeout=self.timeout) as client:
                 resp = await client.get(search_url, headers=headers)
                 if resp.status_code == 200:
@@ -231,7 +231,7 @@ class ExternalFoodAPIService:
         if len(clean_q) >= 2 and len(results) < 8:
             try:
                 search_url = f"https://world.openfoodfacts.org/cgi/search.pl?search_terms={clean_q}&search_simple=1&action=process&json=1&page_size=8"
-                headers = {"User-Agent": "PackAI-SIH26236-PackagingEngine/1.1"}
+                headers = {"User-Agent": "PreserveX-PackagingEngine/1.1"}
                 async with httpx.AsyncClient(timeout=2.0) as client:
                     resp = await client.get(search_url, headers=headers)
                     if resp.status_code == 200:

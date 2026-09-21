@@ -1,6 +1,6 @@
 # PreserveX (PackAI)
 
-> **AI-Based Intelligent Food Packaging Decision-Support System (SIH26236)**
+> **AI-Based Intelligent Food Packaging Decision-Support System**
 
 PreserveX is an end-to-end intelligent decision-support platform for food packaging engineering. It integrates food biochemical data enrichment, food degradation kinetics (Arrhenius shelf-life modeling), scientific heuristic rule engines, machine learning compatibility models, and Multi-Criteria Decision Analysis (MCDA) to prescribe optimal packaging materials and barrier specifications based on food properties, ambient storage conditions, logistics, cost, and sustainability.
 

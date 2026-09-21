@@ -1,4 +1,4 @@
-# Walkthrough: System Refinement & Clean SaaS Transformation (SIH26236)
+# Walkthrough: System Refinement & Clean SaaS Transformation
 
 We have transformed **PackAI** into a **clean, modern, light SaaS product** following a **70/20/10 design system** (inspired by Linear, Stripe, and modern scientific software).
 
@@ -69,7 +69,7 @@ We have transformed **PackAI** into a **clean, modern, light SaaS product** foll
   - Expandable row revealing typical applications, advantages, limitations, tensile strength, and MAP suitability.
 
 ### 8. Methodology Walkthrough (`HowItWorks.jsx`)
-- Clean 8-stage documentation explaining the scientific and decision-support pipeline for judges and technical stakeholders.
+- Clean 8-stage documentation explaining the scientific and decision-support pipeline for technical stakeholders.
 
 ---
 

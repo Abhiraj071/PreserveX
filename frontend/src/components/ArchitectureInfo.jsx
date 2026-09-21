@@ -20,7 +20,7 @@ export default function ArchitectureInfo() {
       {/* Hero Header */}
       <div className="glass-panel p-8 rounded-3xl border border-brand-500/30 text-center space-y-3">
         <span className="px-3 py-1 rounded-full text-xs font-bold bg-brand-950 text-brand-300 border border-brand-700/60 inline-block">
-          Smart India Hackathon Problem Statement SIH26236
+          PreserveX Intelligent Decision Support Platform
         </span>
         <h2 className="text-3xl font-extrabold text-white">
           AI-Based Intelligent Food Packaging Decision-Support System
@@ -30,7 +30,7 @@ export default function ArchitectureInfo() {
         </p>
       </div>
 
-      {/* 3 Core Highlights for Judges */}
+      {/* 3 Core Highlights */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         <div className="glass-panel p-6 rounded-2xl border border-slate-800 space-y-3">
           <div className="w-10 h-10 rounded-xl bg-teal-950 border border-teal-700/60 flex items-center justify-center text-teal-400">
@@ -52,7 +52,7 @@ export default function ArchitectureInfo() {
             2. Dynamic What-If Simulator
           </h3>
           <p className="text-xs text-slate-300 leading-relaxed">
-            Judges can drag Temperature (0-45°C), Humidity (20-95%), and Shelf-life sliders to prove recommendations are condition-dependent, not static lookups.
+            Users can drag Temperature (0-45°C), Humidity (20-95%), and Shelf-life sliders to prove recommendations are condition-dependent, not static lookups.
           </p>
         </div>
 
@@ -102,11 +102,11 @@ export default function ArchitectureInfo() {
         </div>
       </div>
 
-      {/* SIH Presentation Pitch Card */}
+      {/* Architecture Pitch Card */}
       <div className="glass-panel p-6 rounded-3xl border border-teal-500/40 bg-gradient-to-r from-teal-950/40 via-slate-900 to-slate-900 space-y-3">
         <div className="flex items-center space-x-2 text-xs font-bold text-teal-400 uppercase tracking-wider">
           <Code className="w-4 h-4" />
-          <span>SIH Presentation Response Cheat-Sheet</span>
+          <span>Technical Architecture Summary</span>
         </div>
         <h4 className="text-sm font-bold text-white">
           "What technologies are you using?"

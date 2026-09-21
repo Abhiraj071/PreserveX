@@ -77,7 +77,7 @@ class PDFReportGenerator:
         # --- Header ---
         elements.append(Paragraph("AI-BASED FOOD PACKAGING RECOMMENDATION DOSSIER", title_style))
         elements.append(Paragraph(
-            f"SIH26236 Intelligent Decision-Support System &bull; Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+            f"PreserveX Intelligent Decision-Support System &bull; Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
             subtitle_style
         ))
         elements.append(HRFlowable(width="100%", thickness=1.5, color=colors.HexColor("#0284c7"), spaceAfter=10))
