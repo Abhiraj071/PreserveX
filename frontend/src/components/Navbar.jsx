@@ -41,7 +41,7 @@ export default function Navbar({ activeTab, setActiveTab, apiHealthy = true }) {
             </div>
             <div>
               <span className="font-extrabold text-base tracking-tight text-slate-900 font-sans">
-                PACK<span className="text-emerald-600">AI</span>
+                Preserve<span className="text-emerald-600">X</span>
               </span>
               <span className="text-[11px] text-slate-500 font-normal hidden sm:inline ml-2 pl-2 border-l border-slate-200">
                 Food Packaging Decision Support
@@ -155,7 +155,7 @@ export default function Navbar({ activeTab, setActiveTab, apiHealthy = true }) {
                   <div className="p-2.5 rounded-lg bg-emerald-50/50 border border-emerald-200 text-[11px] text-emerald-900 flex items-start space-x-2">
                     <ShieldCheck className="w-4 h-4 text-emerald-700 shrink-0 mt-0.5" />
                     <span>
-                      <strong>Strict Separation Principle:</strong> External APIs enrich nutritional/ambient data only. Polymer barrier standards (OTR, WVTR) are strictly determined by PackAI's internal engineering rule engine.
+                      <strong>Strict Separation Principle:</strong> External APIs enrich nutritional/ambient data only. Polymer barrier standards (OTR, WVTR) are strictly determined by PreserveX's internal engineering rule engine.
                     </span>
                   </div>
                 </div>
