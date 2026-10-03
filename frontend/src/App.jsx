@@ -214,7 +214,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center space-x-2">
             <span className="font-bold text-slate-900 font-sans text-sm">
-              PACK<span className="text-blue-600">AI</span>
+              Preserve<span className="text-blue-600">X</span>
             </span>
             <span className="text-slate-300">&bull;</span>
             <span className="text-slate-600">Intelligent Food Packaging Decision Support</span>
